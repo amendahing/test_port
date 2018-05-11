@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    background-color: #ffc33d;
+}
+
+#block-1 {
+    height: 100%;
+    width: 100%;
+    background-color: #fed15b;
+    /* background-image: url("/img/background-4.jpeg"); */
+    /* background:  linear-gradient(rgba(255, 0, 0, 0.25)), url("/img/background-4.jpeg"); */
+    /* background-size: cover; */
+}
+
+#name h1 {
+    /* border: 1px solid white; */
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    width: 100%;
+    font-size: 42px;
+}
+
+#name h3 {
+    font-size:20px;
+    color: #fff;
+}
+
+
+#name{
+    /* left: 35%; */
+    /* border: #4b644c solid 4px; */
+    /* background-color: #fed15b; */
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    border: #fed15b solid 4px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.heading {
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    /* border: green solid 4px; */
+    width: 250px;
+    text-align: center;
+    margin: 25px auto 30px auto;
+    box-sizing: border-box;
+}
+
+
+#block-5 {
+    background-color: #fed15b;
+    /* background-color: #21262a; */
+    height: 70%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+#block-5 .circle {
+    background-color: white;
+}
+
+.small-box {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    margin: 10px;
+    display:inline-block;
+}
+
+.contact-box {
+    /* border: black solid 1px; */
+    display: inline-block;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.contact-box img{
+    height: 40px;
+    margin: 10px;
+    display:inline-block;
+}
+
+form {
+    /* border: red solid 1px; */
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+input {
+    border: 2px white solid;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+input[value="Name"] {
+    width: 29%;
+    height: 15px;
+}
+
+input[value="Email"] {
+    width: 29%;
+    height: 15px;
+    color: #21262a;
+}
+
+input[value="Enter Message"] {
+    width: 60%;
+    height: 100px;
+}
+
+button {
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 8px;
+    margin: 4px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2c313c;
+    color: white;
+}
+
+#footer {
+    height: 100px;
+    padding-top: 20px;
+    background-color: #21262a;
+    color: white;
+    text-align: center;
+}
+
+#footer img{
+    margin-top: 20px;
+    width: 32px;
+    margin-right: 10px;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amenda H | Front-End Dev</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="ham-menu.css">
+    <link rel="stylesheet" href="about-me.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="contact.css">
+    <link <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Montserrat" rel="stylesheet">
+</head>
+<body>
+    <div id="menu">
+        <a href="#aboutme">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+    <div id="hamham" class="hamburgler" onclick="hamburger(this)">
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
+    </div>
+
+    <div id="block-1">
+        <div id="name">
+            <h1>Amenda Hing</h1>
+            <h3>Front-End Developer</h3>
+        </div>
+    </div>
+
+    <div id="block-2">
+        <a name="aboutme"></a>
+        <h1 class="heading">About Me</h1>
+        <div id="skills-section">
+            <div id="about-me">
+                <p>I am a Bay Area native residing in San Jose. What initially lead me into web development was my curiosity for design and the underlying mechanisms under it. As I explored this field, I found my passion for working with others to bring life to an idea that others will enjoy using. </p>
+                <br>
+                <p>I'm always looking to level up my working skillset, and I currently tackled 3 different stacks: Python, ROR, and Angular. Right now, I'm going to dive in React, CSS animation, as well as SASS. Please feel free to browse through my projects. I would love to hear any feedback you may have, or if you would like to collaborate with me, I would love to hear some of your ideas.</p>
+
+            </div>
+        </div>
+        <h1 class="heading" style="margin-top: 80px;">Skills</h1>
+        <div id="skills-section">
+            <div class="end">
+                <!-- <div class="circle"></div> -->
+                <img src="./img/front-end.png">
+                <h3>Front-End</h3>
+                <p>JavaScript | Angular | React | TypeScript | Materialze | HTML5 | CSS3 | SASS</p>
+            </div>
+            <div class="end">
+                <!-- <div class="circle"></div> -->
+                <img src="./img/back-end.png">
+                <h3>Back-End</h3>
+                <p>Node.JS | Express | SQL | Mongo | Postman | Rspec Django</p>
+            </div>
+            <div class="end">
+                <!-- <div class="circle"></div> -->
+                <img src="./img/languages.png">
+                <h3>Languages</h3>
+                <p>Python | JavaScript | Ruby</p>
+            </div>
+        </div>
+        <a name="portfolio"></a>
+    </div>
+
+    <!-- <div id="block-3">
+        <h1 class="heading">Experience</h1>
+        <div id="experience-section">
+            <div class="experience-section-info" id="left">
+                <h3>Facebook</h3>
+                <h3>2016-2017</h3>
+                <h4>Product Operation Specialist</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae molestiae fugiat nam, enim iste consequuntur totam magnam reiciendis qui, ab at dolores ut error quasi accusamus aperiam rem, harum! Repellendus.</p>
+            </div>
+            <div class="experience-section-info" id="right">
+                <h3>eBay Inc.</h3>
+                <h3>2015</h3>
+                <h4>A/B Test Manager</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad inventore repellendus quisquam itaque unde, aliquid sapiente, molestiae perspiciatis, laborum quae tempore dolores aperiam consectetur iusto, vero nisi.</p>
+            </div>
+
+        </div>
+    </div> -->
+
+
+    <div id="block-4">
+        <h1 class="heading">Portfolio</h1>
+        <div id="portfolio">
+
+            <div class="portfolio-section" id="port-section-0">
+                <div class="port-title">
+                    <h3>PetFinder</h3>
+                    <p>MEAN Web Application</p>
+                </div>
+                <img class="port-img" src="./img/petfinder.png">
+
+                <div class="modal" class="petfinder-modal">
+                    <div class="modal-content">
+                        <span class="exit-btn">&times;</span>
+                        <h1>furever home</h1>
+                        <img class="inside-modal-img" src="./img/petfinder-2.png">
+                        <p>Technology: MEAN, petfinder API</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-section" id="port-section-1">
+                <div class="port-title">
+                    <h3>CoffeeRun</h3>
+                    <p>ROR Web Application</p>
+                </div>
+                <img class="port-img" src="./img/coffee-run.png">
+
+                <div class="modal" class="petfinder-modal">
+                    <div class="modal-content">
+                        <span class="exit-btn">&times;</span>
+                        <h1>CoffeeRun</h1>
+                        <img class="inside-modal-img" src="./img/coffee-run.png">
+
+                        <img class="inside-modal-img" src="./img/coffeerun-xo.png">
+                        <p>Technology: MEAN, petfinder API</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-section" id="port-section-2">
+                <div class="port-title">
+                    <h3>Honda CBR Concept</h3>
+                </div>
+                <video class="port-img" src="./img/cbr-promo-vid.mp4"></video>
+
+
+                <div class="modal" class="petfinder-modal">
+                    <div class="modal-content">
+                        <span class="exit-btn">&times;</span>
+                        <h1>furever home</h1>
+                        <p>MEAN Web Application</p>
+                        <img class="inside-modal-img" src="./img/petfinder.png">
+
+                        <img class="inside-modal-img" src="./img/petfinder-2.png">
+                        <p>Technology: Ruby On Rails, Google Maps API, Yelp Fusion API</p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+    <div id="block-5">
+        <a name="contact"></a>
+        <h1 class="heading">Contact</h1>
+        <div id="skills-section">
+            <div class="contact-box">
+                <img src="./img/location.png">
+                <div class="contact-detail">
+                    <p>Location</p>
+                    <p>San Jose, CA</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <!-- <div class="small-box"></div> -->
+                <img src="./img/email.png">
+                <div class="contact-detail">
+                    <!-- <p>E-Mail</p> -->
+                    <p>amendahing</p>
+                    <p>@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <!-- <div class="small-box"></div> -->
+                <img src="./img/phone.png">
+                <div class="contact-detail">
+                    <p>Phone</p>
+                    <p>(510) 837 - 9608</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <a href="https://drive.google.com/file/d/1_1rYtLZxu7hm46Q3RaS_Nw_hP3J04fem/view?ths=true" target="_blank">
+                    <img src="./img/resume.png">
+                </a>
+
+                <div class="contact-detail">
+                    <p>Resume</p>
+                    <p>PDF</p>
+                </div>
+            </div>
+            <form action="">
+                <input type="text" value="Name">
+                <input type="text" value="Email">
+                <input type="text" value="Enter Message">
+                <button>Send Message!</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Amenda Hing &copy; 2018.</p>
+        <a href="https://www.linkedin.com/in/amenda-hing/" target="_blank"><img src="./img/linkedin-4.png" alt="LinkedIn"></a>
+        <a href="https://github.com/amendahing" target="_blank"><img src="./img/github-2.png" alt="GitHub"></a>
+        <a href="https://repl.it/@alligaator" target="_blank"><img src="./img/replit.png" alt="Repl.it Repo"></a>
+
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

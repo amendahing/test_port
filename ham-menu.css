@@ -1,0 +1,57 @@
+
+
+#hamham{
+    /* border: white solid 1px; */
+    position:fixed;
+    width: 35px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.bar-1, .bar-2, .bar-3{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px;
+    transition: 0.4s;
+    z-index: 2;
+}
+
+
+.change .bar-1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: white;
+    z-index: 2;
+}
+
+.change .bar-2{
+    opacity: 0;
+}
+
+.change .bar-3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: white;
+    z-index: 2;
+}
+
+#menu{
+    height: 100px;
+    background-color: black;
+    width: 180px;
+    position: fixed;
+    top: 0px;
+    z-index: 0;
+    display: none;
+    transition: 1.4s;
+}
+
+#menu a{
+    color: white;
+    /* border: red 1px solid; */
+    margin-left: 70px;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}

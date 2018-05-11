@@ -1,0 +1,99 @@
+#block-4 {
+    padding-top: 35px;
+    margin-bottom: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fed15b;
+}
+
+#portfolio{
+    /* border: blue solid 2px; */
+    width: 85%;
+    margin: 0px auto;
+}
+
+.portfolio-section {
+    /* border: solid black 1px; */
+    margin-bottom: 20px;
+    width: 65%;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 40px;
+    /* display: inline-block; */
+    vertical-align: top;
+}
+
+.port-title {
+    /* border: red solid 2px; */
+    /* margin: 10px 90px 0px 30px; */
+    /* width: 40%; */
+    /* vertical-align: top;
+    /* margin: 10px auto; */
+    text-align: center;
+    position: relative;
+    top: 100px;
+    display: none;
+    font-size: 20px;
+}
+
+
+.port-img{
+    width: 80%;
+    /* height: 320px; */
+    /* margin: 10px 0px 10px 25px; */
+    /* display:inline-block; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.port-img:hover{
+    cursor: pointer;
+    opacity: .1;
+}
+
+.modal{
+    display: none;
+    z-index: 1;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.modal-content{
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    height: 85%;
+    overflow: scroll;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0, 0.2);
+    animation-name: modal-open;
+    animation-duration: .75s;
+    border-radius: 10px;
+}
+
+@keyframes modal-open{
+    from{opacity: 0}
+    to{opacity:1}
+}
+
+.inside-modal-img{
+    width: 70%;
+    margin: 0px auto 15px auto;
+}
+
+.exit-btn{
+    float: right;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.exit-btn:hover, .exit-btn:focus{
+    color: #fed15b;
+    text-decoration: none;
+    cursor: pointer;
+}

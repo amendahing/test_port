@@ -1,0 +1,65 @@
+#block-2 {
+    /* height: 90%; */
+    /* border: green 3px solid; */
+    /* color: #fff; */
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 65px;
+    padding-bottom: 120px;
+    background-color: white;
+}
+
+#about-me{
+    /* border: black solid 1px; */
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 200%;
+}
+
+#skills-section {
+    /* margin: 0px auto; */
+    /* border: red 1px solid; */
+    /* position: relative;
+    top: 100px; */
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.end{
+    /* border: black solid 1px; */
+    display:inline-block;
+    width: 200px;
+    margin: 0px 15px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.end p {
+    /* border: black solid 1px; */
+    line-height: 170%;
+    margin-top: 10px;
+}
+
+.circle {
+    width: 80px;
+	height: 80px;
+	background: #cbc9bb;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    margin: 10px auto;
+}
+
+.end img{
+    width: 80px;
+	height: 80px;
+    /* -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px; */
+    margin: 10px auto;
+    opacity: .5;
+    /* border: 3px solid black; */
+}
