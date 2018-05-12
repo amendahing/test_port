@@ -1,11 +1,13 @@
 #block-5 {
-    background-color: #fed15b;
-    /* background-color: #21262a; */
+    /* background-color: #fed15b; */
+    background-color: #fff;
     height: 70%;
-    width: 100%;
+    width: 55%;
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 25px;
+    border-radius: 15px;
+    margin: 100px auto 0px auto;
 }
 
 #block-5 .circle {
@@ -82,9 +84,9 @@ button:hover {
 #footer {
     height: 100px;
     padding-top: 20px;
-    background-color: #21262a;
-    /* background-color: #fff; */
-    color: white;
+    /* background-color: #21262a; */
+    background-color: #fed15b;
+    color: black;
     text-align: center;
 }
 
