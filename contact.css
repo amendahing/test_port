@@ -1,8 +1,7 @@
 #block-5 {
-    /* background-color: #fed15b; */
     background-color: #fff;
     height: 70%;
-    width: 55%;
+    width: 600px;
     box-sizing: border-box;
     padding-top: 10px;
     padding-bottom: 25px;
@@ -14,25 +13,21 @@
     background-color: white;
 }
 
-.small-box {
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    margin: 10px;
-    display:inline-block;
-}
 
 .contact-box {
     /* border: black solid 1px; */
     display: inline-block;
-    width: 170px;
+    width: 120px;
     margin-bottom: 20px;
 }
 
+
+
 .contact-box img{
-    height: 40px;
+    height: 30px;
     margin: 10px;
     display:inline-block;
+
 }
 
 form {
@@ -94,4 +89,48 @@ button:hover {
     margin-top: 20px;
     width: 28px;
     margin-right: 10px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 788px) {
+    .contact-box {
+        /* border: black solid 1px; */
+        /* background-color: red; */
+        display: inline-block;
+        width: 49%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 789px){
+    #block-5 {
+        background-color: #fff;
+        width: 70%;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+        margin: 100px auto 0px auto;
+    }
+
+}
+
+@media screen and (min-width: 910px){
+    #block-5 {
+        background-color: #fff;
+        width: 70%;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        border-radius: 15px;
+        margin: 100px auto 0px auto;
+    }
+
+    .contact-box {
+        /* background-color: red; */
+        display: inline-block;
+        width: 24%;
+        margin-bottom: 20px;
+    }
+
 }

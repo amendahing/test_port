@@ -15,7 +15,7 @@
 .portfolio-section {
     /* border: solid black 1px; */
     margin-bottom: 20px;
-    width: 65%;
+    width: 85%;
     margin: 0px auto;
     text-align: center;
     margin-bottom: 40px;
@@ -36,19 +36,37 @@
     font-size: 20px;
 }
 
+.project-deets{
+    /* border: white solid 1px; */
+    padding-top: 120px;
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+
+}
+
+.project-deets p{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 .port-img{
-    width: 80%;
+    width: 50%;
     /* height: 320px; */
     /* margin: 10px 0px 10px 25px; */
     /* display:inline-block; */
-    text-align: center;
+    /* text-align: center; */
     border-radius: 10px;
 }
 
 .port-img:hover{
     cursor: pointer;
-    opacity: .1;
+    /* opacity: .1; */
 }
 
 .modal{
