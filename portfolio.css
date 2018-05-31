@@ -15,7 +15,7 @@
 .portfolio-section {
     /* border: solid black 1px; */
     margin-bottom: 20px;
-    width: 85%;
+    width: 95%;
     margin: 0px auto;
     text-align: center;
     margin-bottom: 40px;
@@ -38,6 +38,7 @@
 
 .project-deets{
     /* border: white solid 1px; */
+    padding-left: 20px;
     padding-top: 120px;
     display: inline-block;
     vertical-align: top;
@@ -45,7 +46,10 @@
     box-sizing: border-box;
     position: relative;
     top: 20px;
+}
 
+#toggleB{
+    display: none;
 }
 
 .project-deets p{
@@ -57,11 +61,11 @@
 
 .port-img{
     width: 50%;
+    border-radius: 10px;
     /* height: 320px; */
     /* margin: 10px 0px 10px 25px; */
     /* display:inline-block; */
     /* text-align: center; */
-    border-radius: 10px;
 }
 
 .port-img:hover{
@@ -114,4 +118,64 @@
     color: #fed15b;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1140px) {
+    .portfolio-section {
+        /* display: inline-block; */
+        /* border: solid black 1px; */
+        /* background-color: red; */
+        margin-bottom: 20px;
+        width: 85%;
+        margin: 0px auto;
+        text-align: center;
+        margin-bottom: 40px;
+        vertical-align: top;
+    }
+
+    .port-img{
+        width: 70%;
+    }
+
+    .project-deets{
+        border-bottom: white solid 1px;
+        padding-bottom: 65px;
+        margin-bottom: 25px;
+        /* background-color: green; */
+        padding-top: 20px;
+        display: inline-block;
+        vertical-align: top;
+        width: 92%;
+        box-sizing: border-box;
+        position: relative;
+        top: 20px;
+
+    }
+
+    #toggleA {
+        display: none;
+    }
+
+    #toggleB{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1255px){
+    .project-deets{
+        /* border: white solid 1px; */
+        /* background-color: red; */
+        padding-top: 180px;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .project-deets{
+        /* background-color: green; */
+        padding-top: 230px;
+    }
+
+    .port-img{
+        width: 600px;
+    }
 }
