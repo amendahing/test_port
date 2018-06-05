@@ -13,8 +13,9 @@
 }
 
 .portfolio-section {
-    /* border: solid black 1px; */
-    margin-bottom: 20px;
+    /* border-bottom: solid white 1px;
+    padding-bottom: 50px; */
+    margin-bottom: 30px;
     width: 95%;
     margin: 0px auto;
     text-align: center;
@@ -39,7 +40,7 @@
 .project-deets{
     /* border: white solid 1px; */
     padding-left: 20px;
-    padding-top: 120px;
+    padding-top: 150px;
     display: inline-block;
     vertical-align: top;
     width: 49%;
@@ -62,10 +63,7 @@
 .port-img{
     width: 50%;
     border-radius: 10px;
-    /* height: 320px; */
-    /* margin: 10px 0px 10px 25px; */
-    /* display:inline-block; */
-    /* text-align: center; */
+
 }
 
 .port-img:hover{
@@ -81,17 +79,17 @@
     top: 0px;
     height: 100%;
     width: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0, 0.5);
+    /* overflow: auto; */
+    background-color: rgba(0,0,0, 0.9);
 }
 
 .modal-content{
-    background-color: #fff;
-    margin: 30px auto;
+    /* background-color: #fff; */
+    margin: 150px auto;
     padding: 20px;
     width: 80%;
-    height: 85%;
-    overflow: scroll;
+    /* height: 85%; */
+    /* overflow: scroll; */
     box-shadow: 0 5px 8px 0 rgba(0,0,0, 0.2);
     animation-name: modal-open;
     animation-duration: .75s;
@@ -161,6 +159,15 @@
     }
 }
 
+@media screen and (min-width: 1140px){
+    .portfolio-section {
+        border-bottom: solid white 1px;
+        padding-bottom: 60px;
+        margin-bottom: 50px;
+    }
+}
+
+
 @media screen and (min-width: 1255px){
     .project-deets{
         /* border: white solid 1px; */
@@ -168,6 +175,7 @@
         padding-top: 180px;
     }
 }
+
 
 @media screen and (min-width: 1600px){
     .project-deets{
