@@ -84,12 +84,9 @@
 }
 
 .modal-content{
-    /* background-color: #fff; */
-    margin: 150px auto;
-    padding: 20px;
+    /* border: green 1px solid; */
+    margin: 15px auto;
     width: 80%;
-    /* height: 85%; */
-    /* overflow: scroll; */
     box-shadow: 0 5px 8px 0 rgba(0,0,0, 0.2);
     animation-name: modal-open;
     animation-duration: .75s;
@@ -102,7 +99,9 @@
 }
 
 .inside-modal-img{
-    width: 49%;
+    max-height: 370px;
+    width: 690px;
+    margin-bottom: 15px;
     /* margin: 0px auto 15px auto; */
 }
 
